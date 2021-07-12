@@ -1,0 +1,2 @@
+body{padding:20px}button{padding:10px 20px;font-family:sans-serif;font-size:30px;background-color:green;border-radius:50px;border-color:transparent;cursor:pointer;transition:background-color .2s linear,color .2s linear}button:last-child{background-color:red}button:not(:last-child){margin-right:10px}button:disabled,button:hover{background-color:#ff0;border-color:transparent;outline:none}.container{display:flex;justify-content:center;margin-top:50px}.link_color{font-size:20px}
+/*# sourceMappingURL=/goit-js-hw-11/color.682d4a30.css.map */
