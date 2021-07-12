@@ -1,0 +1,44 @@
+body {
+    padding: 20px;
+  }
+
+  
+  button {
+
+
+    padding: 10px 20px;
+  
+    font-family: sans-serif;
+    font-size: 30px;
+  
+    background-color: green;
+    border-radius: 50px;
+    border-color: transparent;
+    cursor: pointer;
+
+    &:last-child {
+        background-color: red;
+    }
+  
+    transition: background-color 200ms linear, color 200ms linear;
+  
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  
+    &:hover,
+    &:disabled {
+      background-color: yellow;
+      border-color: transparent;
+      outline: none;
+    }
+  }
+.container {
+display: flex;
+justify-content: center;
+margin-top: 50px;
+} 
+
+.link_color {
+    font-size: 20px;
+}
